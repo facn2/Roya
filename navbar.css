@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courgette', cursive;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: pink;
+}
+
+.test-nav {
+  
+}
+
+.warrper {
+  width: 50%;
+  padding-top: 50px;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+}
+
+.nav-bottom {
+  color: red;
+}
+
+.wrapper-menu {
+  text-align: center;
+  line-height: 50px;
+  transform: translateY(-10%);
+}
+
+#home, #charts {
+  width: 100%;
+}
+
+.nav a {
+  background-color: black;
+  flex-grow: 1;
+  color: #f2f2f2;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
