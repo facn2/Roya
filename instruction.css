@@ -6,8 +6,8 @@ body {
 
 .guidelineContainer {
   background-color: white;
-  margin: 30px 20px 30px 20px;
-  padding: 30px 20px 30px 20px;
+  margin: 30px 20px 10px 20px;
+  padding: 30px 20px 10px 20px;
   height: 100%;
   box-sizing: border-box;
 }
@@ -15,12 +15,18 @@ body {
 .guidelineTitle {
   text-align: center;
   color: red;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.gameInstructions__info {
+  font-size: 16px;
 }
 
 .guidelineBody {
-  margin: 30px 20px 30px 20px;
-  text-align: center
-  font-size: 18px;
+  margin: 30px 250px 30px 250px;
+  text-align: center;
+  font-size: 22px;
 }
 
 .guidelineButtonContainer {
@@ -36,6 +42,7 @@ body {
   background: #D5D5D5;
   transition: width 0.4s ease;
   cursor: pointer;
+  outline: none;
 }
 
 .guidelineButton:hover .guidelineButton:click {
