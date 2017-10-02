@@ -10,7 +10,7 @@ div {
   margin-top: 5%;
 }
 
-#player-container {
+.player-container {
   z-index: 1000;
   margin-right: 50%;
   direction: ltr;
@@ -21,9 +21,8 @@ div {
   position: fixed;
 }
 
-#gn-hide {
+.gn-hide {
   text-align: center;
-  display: none !important;
 }
 
 .collect {
