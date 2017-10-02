@@ -1,0 +1,45 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #000000;
+  background-color: #7F8DA4;
+}
+
+.guidelineContainer {
+  background-color: white;
+  margin: 30px 20px 30px 20px;
+  padding: 30px 20px 30px 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.guidelineTitle {
+  text-align: center;
+  color: red;
+}
+
+.guidelineBody {
+  margin: 30px 20px 30px 20px;
+  text-align: center
+  font-size: 18px;
+}
+
+.guidelineButtonContainer {
+  margin: 10px 20px 50px 20px;
+  text-align: center;
+}
+
+.guidelineButton {
+  font-size: 16px;
+  border-radius: 28px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background: #D5D5D5;
+  transition: width 0.4s ease;
+  cursor: pointer;
+}
+
+.guidelineButton:hover .guidelineButton:click {
+  background: #D8D8D8;
+  text-decoration: none;
+}
+
