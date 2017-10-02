@@ -1,0 +1,36 @@
+* {
+  background-color: red;
+}
+
+div {
+  width: 50%;
+  height: 80%;
+  background-color: pink;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+#player-container {
+  z-index: 1000;
+  margin-right: 50%;
+  direction: ltr;
+  height: 5000;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 5000;
+  position: fixed;
+}
+
+#gn-hide {
+  text-align: center;
+  display: none !important;
+}
+
+.collect {
+  text-align: center;
+}
+
+.score {
+  text-align: left;
+  font-size: 20px;
+}
