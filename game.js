@@ -10,9 +10,7 @@ var counterDiv = document.getElementById('counter');
 var ctx = canvas.getContext('2d');
 
 //setup stats for game
-var randomColor = 'gold';
-var colorChart = ['gold', 'red', 'blue']; //color should relate to breaking point of balloon
-var balloonCount = 10;
+var balloonCount = 5;
 var centerX = canvas.width/2;
 var centerY = canvas.height/2;
 var DEFAULTX = 50;
@@ -22,13 +20,12 @@ var currentY = DEFAULTY;
 var offset = 0;
 var counter = 0;
 var moneyCollected= 0;
-var breakPoint = 60;
 
 //functions
 function balloonBody(x, y, offsetY){
   ctx.beginPath();
-  ctx.fillStyle = randomColor;
-  ctx.strokeStyle = randomColor;
+  ctx.fillStyle = "gold";
+  ctx.strokeStyle = "gold";
   offsetY = offsetY || 0;
   ctx.ellipse(centerX, centerY - offsetY, x, y, 0, 0, 2 * Math.PI);
   ctx.stroke();
@@ -37,8 +34,8 @@ function balloonBody(x, y, offsetY){
 
 function balloonKnot(x, y){
   ctx.beginPath();
-  ctx.fillStyle = randomColor;
-  ctx.strokeStyle = randomColor;
+  ctx.fillStyle = "gold";
+  ctx.strokeStyle= "gold";
   ctx.moveTo(centerX, centerY + y);
   ctx.lineTo(centerX + 20, centerY + y + 20);
   ctx.lineTo(centerX - 20, centerY + y + 20);
@@ -47,31 +44,7 @@ function balloonKnot(x, y){
   ctx.fill();
 }
 
-function randomizer(num){
-  return Math.floor(Math.random() * num);
-}
-
-function colorPick(){ //yeah, we know having side effect to change global variable is not ideal
-  var pickColor = randomizer(3);
-  var result = pickColor===3?2:pickColor;
-  switch (colorChart[result]) {
-    case 'gold':
-      breakPoint = randomizer(10) + 110;
-      // console.log(breakPoint);
-      break;
-    case 'red':
-      breakPoint = randomizer(70) + 50;
-      // console.log(breakPoint);
-      break;
-    default:
-      breakPoint = randomizer(20) + 50;
-      // console.log(breakPoint);
-  }
-  return result;
-}
-
 function createBalloon(x,y){
-  randomColor = colorChart[colorPick()];
   balloonBody(x, y);
   balloonKnot(x, y);
 }
@@ -149,7 +122,7 @@ button.addEventListener('click', function(){
     pumpingStats();                               //should set pumping to
     countingMoney();                              //wait for new balloon
     pumpingBalloon(currentX, currentY, offset);   //but right now the timeinterval is so short is doesnt matter
-    if(currentX > breakPoint){
+    if(currentX > 60){
       resetBalloonStats();
       countingMoney();
       cleanUp();
