@@ -1,0 +1,66 @@
+.player-container {
+  z-index: 1000;
+  margin-bottom: 20px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-color: pink;
+  border-radius: 2%;
+}
+
+
+p {
+  width: 100%;
+  background: blue;
+  width: 70.29vw;
+  height: 2.5vw;
+}
+
+h1 {
+  padding: 2%;
+  text-align: center;
+}
+
+h2 {
+  padding: 2%;
+  display: block;
+  font-size: 3em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  padding: 2%;
+}
+
+.div-image {
+  width: 50%;
+  padding-top: 20px;
+}
+
+img {
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15%;
+  width: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.balloons {
+  float: left;
+}
+
+.like {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.token {
+  float: right;
+}
