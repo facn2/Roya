@@ -9,37 +9,27 @@
   border-radius: 2%;
 }
 
-
-p {
-  width: 100%;
-  background: blue;
-  width: 70.29vw;
-  height: 2.5vw;
+.player-container {
+  width: 50%;
+  height: 50%;
 }
 
 h1 {
   padding: 2%;
   text-align: center;
+  font-size: 10em;
 }
 
 h2 {
   padding: 2%;
   display: block;
   font-size: 3em;
-  -webkit-margin-before: 0.83em;
-  -webkit-margin-after: 0.83em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font-weight: bold;
 }
 
 p {
   padding: 2%;
-}
-
-.div-image {
-  width: 50%;
-  padding-top: 20px;
+  font-size: 6em;
 }
 
 img {
@@ -50,17 +40,4 @@ img {
   width: 15%;
   padding-top: 5%;
   padding-bottom: 5%;
-}
-
-.balloons {
-  float: left;
-}
-
-.like {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.token {
-  float: right;
 }
