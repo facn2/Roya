@@ -1,7 +1,7 @@
 body{
   font-family: 'PT Sans', sans-serif;
   color: #000000;
-  background-color: lightgray;
+  background-color: white;
 }
 
 .traitContainer {
@@ -11,4 +11,9 @@ body{
 
 .traitsSidebar {
   display: block;
+}
+
+.image {
+  width: 25%;
+  height: 25%;
 }
