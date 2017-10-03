@@ -2,6 +2,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   color: #000000;
   background-color: #7F8DA4;
+  margin: 0;
 }
 
 .guidelineContainer {
@@ -49,4 +50,3 @@ body {
   background: #D8D8D8;
   text-decoration: none;
 }
-

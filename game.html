@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="./game.css">
-  <title>Ballon</title>
+  <meta charset="UTF-8">
+  <title>Balloons Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="player-container">
-    <div class="gm-hide">
-      <h1 class="collect">$0.00</h1>
-      <h1 class="score">
-        💵0.00
-        <br>
-        PREV 💵0.00
-      </h1>
-
-    </div>
-
-  </div>
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <div id="counter"></div>
+  <div id="collect-counter"></div>
+  <div id="balloon-counter"></div>
+  <button id="pump">Pump</button>
+  <button id="collect">Collect</button>
+  <script src="game.js"></script>
 </body>
-
 </html>
