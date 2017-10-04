@@ -56,7 +56,7 @@ function pumpingBalloon(x, y, offset){
 function boom(){
   ctx.font='48px serif';
   ctx.fillStyle='red';
-  ctx.fillText('Boom', centerX, centerY);
+  ctx.fillText('Boom', centerX - 50, centerY);
 }
 
 function cleanUp(){
@@ -68,18 +68,18 @@ function rounding(num){
 }
 
 function countingMoney(){
-  counterDiv.innerText = counter + ' Shekels';
+  counterDiv.innerText = '₪ '+counter;
 }
 
 function countingMoneyCollected(){
-  collectCounter.innerText = 'you have '+ moneyCollected + ' Shekels';
+  collectCounter.innerText = '₪ ' + moneyCollected + ' Collected';
 }
 
 function balloonLeft(){
   if(balloonCount > 0)
-    balloonCounter.innerText = 'you have '+ balloonCount + ' balloons left';
+    balloonCounter.innerText = balloonCount + ' Balloons left';
   else
-    balloonCounter.innerText = 'game over';
+    balloonCounter.innerText = 'Game Finished';
 }
 
 function makeNewBalloon(){
@@ -119,10 +119,10 @@ createBalloon(DEFAULTX, DEFAULTY);
 //listen to changes
 button.addEventListener('click', function(){
   if(balloonCount > 0){
-    pumpingStats();
-    countingMoney();
-    pumpingBalloon(currentX, currentY, offset);
-    if(currentX > 100){
+    pumpingStats();                               //should set pumping to
+    countingMoney();                              //wait for new balloon
+    pumpingBalloon(currentX, currentY, offset);   //but right now the timeinterval is so short is doesnt matter
+    if(currentX > 60){
       resetBalloonStats();
       countingMoney();
       cleanUp();

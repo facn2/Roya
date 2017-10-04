@@ -3,16 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>Balloons Game</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="game.css">
 </head>
 
 <body>
-  <canvas id="canvas" width="500" height="500"></canvas>
-  <div id="counter"></div>
-  <div id="collect-counter"></div>
-  <div id="balloon-counter"></div>
-  <button id="pump">Pump</button>
-  <button id="collect">Collect</button>
+  <div class="game">
+    <div class="data">
+      <div id="div-collect-counter">
+        <span id="bag-of-money"></span>
+        <div id="collect-counter"></div>
+      </div>
+        <div id="counter"></div>
+      <div id="div-balloon-counter">
+        <span id="balloon-icon"></span>
+        <div id="balloon-counter"></div>
+      </div>
+    </div>
+    <canvas id="canvas" width="500" height="450"></canvas>
+    <div class="controls">
+      <button id="pump">Pump</button>
+      <button id="collect">Collect</button>
+    </div>
+  </div>
+
   <script src="game.js"></script>
 </body>
 </html>
