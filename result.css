@@ -1,43 +1,63 @@
-.player-container {
-  z-index: 1000;
-  margin-bottom: 20px;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-  background-color: pink;
-  border-radius: 2%;
+body {
+  background-color: #F8F8F8;
+  box-sizing: border-box;
 }
 
 .player-container {
-  width: 50%;
-  height: 50%;
-}
-
-h1 {
-  padding: 2%;
+  background-color: white;
   text-align: center;
-  font-size: 10em;
+  margin: 10% 14% 10% 14%;
+  border-radius: 1%;
+  height: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%; 
 }
 
-h2 {
-  padding: 2%;
-  display: block;
-  font-size: 3em;
-  font-weight: bold;
-}
-
-p {
-  padding: 2%;
-  font-size: 6em;
+.insight-title {
+  color: darkblue;
+  text-decoration: underline;
 }
 
 img {
-  padding: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 15%;
-  width: 15%;
+/*  margin-left: auto;
+  margin-right: auto;*/
+/*  height: 30%;
+  width: 30%;*/
+/*  padding: 2%;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 5%;*/
+}
+
+.insight-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 4%; 
+  /*border: solid 0.1em lightgray;*/
+}
+
+.insight-risk {
+  margin-right: 10%
+}
+
+.insight-learning {
+}
+
+.insight-text {
+  font-size: 1.5em;
+}
+
+.insight-button {
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  padding: 2% 2% 2% 2%;
+  text-decoration: none;
+  background: #D5D5D5;
+  transition: width 0.4s ease;
+  cursor: pointer;
+  outline: none;
 }
