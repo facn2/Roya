@@ -2,51 +2,50 @@ body {
   font-family: 'PT Sans', sans-serif;
   color: #000000;
   background-color: #7F8DA4;
+  /*background-color: #F8F8F8;*/
   margin: 0;
 }
 
-.guidelineContainer {
+.guideline-container {
   background-color: white;
-  margin: 30px 20px 10px 20px;
-  padding: 30px 20px 10px 20px;
-  height: 100%;
-  box-sizing: border-box;
+  margin: 4% 4% 1% 4%;
+  padding: 2% 5% 2% 5%;
 }
 
-.guidelineTitle {
+.guideline-title {
   text-align: center;
   color: red;
-  font-size: 30px;
-  margin-bottom: 0;
+  font-size: 1.5em;
 }
 
 .gameInstructions__info {
-  font-size: 16px;
+  font-size: 0.6em;
 }
 
-.guidelineBody {
-  margin: 30px 250px 30px 250px;
+.guideline-body {
+  margin: 2% 15% 2% 15%;
   text-align: center;
-  font-size: 22px;
+  font-size: 1.5em;
 }
 
-.guidelineButtonContainer {
-  margin: 10px 20px 50px 20px;
+.guideline-button-container {
+  margin: 3% 0% 3% 0%;
   text-align: center;
 }
 
-.guidelineButton {
-  font-size: 16px;
-  border-radius: 28px;
-  padding: 10px 20px 10px 20px;
+.guideline-button {
+  font-size: 1em;
+  border-radius: 1em;
+  padding: 1% 2% 1% 2%;
   text-decoration: none;
   background: #D5D5D5;
   transition: width 0.4s ease;
   cursor: pointer;
   outline: none;
+  border: none;
 }
 
-.guidelineButton:hover .guidelineButton:click {
+.guideline-button:hover .guideline-button:click {
   background: #D8D8D8;
   text-decoration: none;
 }
