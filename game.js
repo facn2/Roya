@@ -57,15 +57,12 @@ function colorPick(){ //yeah, we know having side effect to change global variab
   switch (colorChart[result]) {
     case 'gold':
       breakPoint = randomizer(10) + 110;
-      // console.log(breakPoint);
       break;
     case 'red':
       breakPoint = randomizer(70) + 50;
-      // console.log(breakPoint);
       break;
     default:
       breakPoint = randomizer(20) + 50;
-      // console.log(breakPoint);
   }
   return result;
 }
