@@ -1,5 +1,10 @@
+* {
+  font-family: 'Lateef', cursive;
+  font-size: 22px;
+}
+
 body {
-  margin:0;
+  margin: 0;
   height: 100vh;
   background-color: black;
   display: flex;
@@ -7,10 +12,10 @@ body {
   justify-content: center;
 }
 
-button{
+button {
   height: 3rem;
   width: 10rem;
-  border:none;
+  border: none;
   border-radius: 10px;
   font-size: 1.5rem;
 }
@@ -25,57 +30,57 @@ button{
   flex-direction: column;
 }
 
-.data{
+.data {
   position: relative;
-  top:5%;
+  top: 5%;
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   flex-direction: row;
 }
 
-.controls{
+.controls {
   position: relative;
-  bottom:15%;
+  bottom: 15%;
   display: flex;
-  width:100%;
+  width: 100%;
   justify-content: space-around;
 }
 
-#counter{
+#counter {
   text-align: center;
-  flex-grow:2;
+  flex-grow: 2;
   font-size: 4rem;
 }
 
-#div-collect-counter{
+#div-collect-counter {
   text-align: center;
-  flex-grow:1;
+  flex-grow: 1;
   font-size: 1.5rem;
   color: #42f4a7;
 }
 
-#div-balloon-counter{
+#div-balloon-counter {
   text-align: center;
-  flex-grow:1;
+  flex-grow: 1;
   font-size: 1.5rem;
 }
 
-#canvas{
+#canvas {
   /*border: 1px solid black;*/
 }
 
-#pump{
+#pump {
   color: white;
   background-color: #42b0f4;
 }
 
-#collect{
+#collect {
   color: white;
   background-color: #42f4a7;
 }
 
-#bag-of-money{
+#bag-of-money {
   /*for later use*/
 }

@@ -96,14 +96,14 @@ function countingMoney(){
 }
 
 function countingMoneyCollected(){
-  collectCounter.innerText = '₪ ' + moneyCollected + ' Collected';
+  collectCounter.innerText = '₪ ' + moneyCollected + ' Collected'; // المجموع
 }
 
 function balloonLeft(){
   if(balloonCount > 0)
-    balloonCounter.innerText = balloonCount + ' Balloons left';
+    balloonCounter.innerText = balloonCount + ' Balloons left'; // عدد البالونات الباقي
   else
-    balloonCounter.innerText = 'Game Finished';
+    balloonCounter.innerText = 'Game Finished'; // العبة انتهت
 }
 
 function makeNewBalloon(){

@@ -1,4 +1,9 @@
-nav{
+* {
+  font-family: 'Lateef', cursive;
+  font-size: 22px;
+}
+
+nav {
   font-family: 'PT Sans', sans-serif;
   margin: 0;
   border-bottom: 1px solid black;
@@ -6,27 +11,27 @@ nav{
   display: flex;
   flex-direction: row;
   font-size: 1.5rem;
-  padding:1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
-.link{
-  flex-grow:1;
+.link {
+  flex-grow: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
-  left:5%;
+  left: 5%;
 }
 
-.link>a{
+.link>a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-.user{
-  flex-grow:3;
+.user {
+  flex-grow: 3;
   text-align: right;
-  color:white;
+  color: white;
   position: relative;
-  right:7%;
+  right: 7%;
 }
