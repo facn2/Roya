@@ -1,14 +1,13 @@
-* {
-  font-family: 'Lateef', cursive;
-  font-size: 22px;
-}
-
 body {
   font-family: 'PT Sans', sans-serif;
   color: #000000;
   background-color: #7F8DA4;
   /*background-color: #F8F8F8;*/
   margin: 0;
+}
+
+a, span, h1 {
+  font-family: 'Lateef', cursive;
 }
 
 .guideline-container {

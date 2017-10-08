@@ -1,8 +1,3 @@
-* {
-  font-family: 'Lateef', cursive;
-  font-size: 22px;
-}
-
 body {
   margin: 0;
   height: 100vh;
@@ -28,6 +23,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Lateef', cursive;
 }
 
 .data {
@@ -67,9 +63,6 @@ button {
   font-size: 1.5rem;
 }
 
-#canvas {
-  /*border: 1px solid black;*/
-}
 
 #pump {
   color: white;
