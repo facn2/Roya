@@ -96,14 +96,17 @@ function countingMoney(){
 }
 
 function countingMoneyCollected(){
-  collectCounter.innerText = '₪ ' + moneyCollected + ' Collected';
+  var display = window.location.href.includes('Ar')? ' المجموع':' Collected';
+  collectCounter.innerText = '₪ ' + moneyCollected + display; // المجموع
 }
 
 function balloonLeft(){
+  var display = window.location.href.includes('Ar')? ' عدد البالونات الباقي':' Balloons left';
+  var finish = window.location.href.includes('Ar')? 'العبة انتهت':'Game Finished';
   if(balloonCount > 0)
-    balloonCounter.innerText = balloonCount + ' Balloons left';
+    balloonCounter.innerText = balloonCount + display; // عدد البالونات الباقي
   else
-    balloonCounter.innerText = 'Game Finished';
+    balloonCounter.innerText = finish; // العبة انتهت
 }
 
 function makeNewBalloon(){
