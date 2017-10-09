@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div class="game">
+  <div class="game" id="game">
     <div class="data">
       <div id="div-collect-counter">
         <span id="bag-of-money"></span>
@@ -25,6 +25,13 @@
       <button id="pump">Pump</button>
       <button id="collect">Collect</button>
     </div>
+  </div>
+
+  <div id="overlay" class="overlay">
+   <div class="content">
+      <p>Game Finished</p>
+      <a href="result.html"><button id="next-button">Next Game</button></a>
+   </div>
   </div>
 
   <script src="game.js"></script>
