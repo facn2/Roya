@@ -13,7 +13,7 @@ var ctx = canvas.getContext('2d');
 //setup stats for game
 var randomColor = 'gold';
 var colorChart = ['gold', 'red', 'blue']; //color should relate to breaking point of balloon
-var balloonCount = 2;
+var balloonCount = 10;
 var centerX = canvas.width/2;
 var centerY = canvas.height/2;
 var DEFAULTX = 50;
