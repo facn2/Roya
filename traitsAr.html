@@ -4,8 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>بيانات</title>
-  <link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
-  <html dir="rtl" lang="ar">
   <link rel="stylesheet" href="traits.css">
   <link rel="stylesheet" href="navbar.css">
 </head>
@@ -19,6 +17,18 @@
       <a href="#" id="a_degree">شهادات</a>
     </div>
     <div class="user">
+      <span>مرحبا بك. المستخدم</span>
+      <img src="images/user.svg" alt="user">
+    </div>
+  </nav>
+  <select name="forma" onchange="location = this.value;">
+    <option value="traitsAr.html">Arabic</option>
+    <option value="traits.html">English</option>
+  </select>
+  <section class="traitsContainer" id="traitsContainer">
+    <div class="Title">
+      <h2>تقرير بكل نتائجك</h2>
+    </div>
       <span>مرحبا بك, المستخدم</span>
       <img src="images/user.svg" alt="user">
     </div>
@@ -27,7 +37,6 @@
     <div class="Title">
       <h2>تقرير جميع بياناتك</h2>
     </div>
-
     <button class="tablink" onclick="openTraits('Learning', this, 'red')" id="defaultOpen">تعليم</button>
     <button class="tablink" onclick="openTraits('Risk', this, 'green')">مخاطرة</button>
     <button class="tablink" onclick="openTraits('Planning', this, 'blue')">تخطيط</button>
@@ -60,11 +69,11 @@
         <div class="graph">
           <img src="./images/chart.png">
         </div>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-
     <div id="Processing" class="tabcontent">
       <div class="content-box">
         <h3>نتائجك</h3>
