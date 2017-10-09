@@ -5,6 +5,7 @@ var collect = document.getElementById('collect');
 var collectCounter = document.getElementById('collect-counter');
 var balloonCounter = document.getElementById('balloon-counter');
 var counterDiv = document.getElementById('counter');
+var gameOver = document.getElementById('overlay');
 
 //start canvas API
 var ctx = canvas.getContext('2d');
@@ -171,3 +172,15 @@ collect.addEventListener('click', function(){
 });
 
 //redirect to result page by making a pop up div
+var balloonTimer = setInterval(function() {
+  if(balloonCount == 0)
+    gameEnd()
+}, 500);
+
+function gameEnd() {
+  gameOver.style.visibility = 'visible';
+};
+
+function stopInterval() {
+  clearInterval(balloonTimer);
+};
