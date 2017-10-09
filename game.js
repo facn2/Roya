@@ -5,6 +5,7 @@ var collect = document.getElementById('collect');
 var collectCounter = document.getElementById('collect-counter');
 var balloonCounter = document.getElementById('balloon-counter');
 var counterDiv = document.getElementById('counter');
+var gameOver = document.getElementById('overlay');
 
 //start canvas API
 var ctx = canvas.getContext('2d');
@@ -12,7 +13,7 @@ var ctx = canvas.getContext('2d');
 //setup stats for game
 var randomColor = 'gold';
 var colorChart = ['gold', 'red', 'blue']; //color should relate to breaking point of balloon
-var balloonCount = 10;
+var balloonCount = 2;
 var centerX = canvas.width/2;
 var centerY = canvas.height/2;
 var DEFAULTX = 50;
@@ -171,3 +172,15 @@ collect.addEventListener('click', function(){
 });
 
 //redirect to result page by making a pop up div
+var balloonTimer = setInterval(function() {
+  if(balloonCount == 0)
+    gameEnd()
+}, 500);
+
+function gameEnd() {
+  gameOver.style.visibility = 'visible';
+};
+
+function stopInterval() {
+  clearInterval(balloonTimer);
+};
