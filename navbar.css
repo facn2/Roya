@@ -1,9 +1,8 @@
 nav {
-  /*font-family: 'PT Sans', sans-serif;*/
   -webkit-font-smoothing: antialiased;
   margin: 0;
   border-bottom: 1px solid black;
-  background-color: #6d747f;
+  background-color: #10152b;
   display: flex;
   flex-direction: row;
   font-size: 1.5rem;
@@ -22,14 +21,14 @@ nav {
 
 .link>a {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 .userEn {
   z-index: 0;
   flex-grow: 3;
   text-align: right;
-  color: white;
+  color: #fff;
   position: relative;
   right: 13%;
   width: 50%;
