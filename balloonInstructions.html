@@ -2,8 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" href="instruction.css">
   <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="dropDown.css">
   <title>Balloon Instructions</title>
 </head>
 
@@ -11,19 +13,22 @@
   <nav>
     <div class="link">
       <img src="images/head.svg" alt="icon">
-      <a href="#" id="a_games">Games</a>
-      <a href="#" id="a_traits">Traits</a>
-      <a href="#" id="a_degree">Degree</a>
+      <a href="generalGuidelines.html" id="a_games">Games</a>
+      <a href="traits.html" id="a_traits">Traits</a>
+      <a href="degree.html" id="a_degree">Degree</a>
     </div>
-    <div class="user">
+    <div class="userEn">
       <span>Hello, user</span>
       <img src="images/user.svg" alt="user">
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">Language</button>
+      <div class="dropdown-content">
+        <a href="balloonInstructions.html">English</a>
+        <a href="balloonInstructionsAr.html">العربية</a>
+      </div>
+    </div>
   </nav>
-  <select name="forma" onchange="location = this.value;">
-    <option value="balloonInstructions.html">English</option>
-    <option value="balloonInstructionsAr.html">Arabic</option>
-  </select>
   <section class="guideline-container">
     <div class="guideline-title">
       <h1>Game #1 Instructions</h1>
@@ -40,11 +45,11 @@
     </div>
     <div class="guideline-body">
       <span>
-        The goal of this game is to earn as much money as possible. You will be presented with 40 deflated balloons, one at a time. <br><br>
+        The goal of this game is to earn as much money as possible. You will be presented with 20 deflated balloons, one at a time. <br><br>
 
-        For each balloon you earn 0.05 per pump. To permanently collect the coins, click “Collect money”. <br><br>
+        For each balloon you earn 0.01 shekels per pump. To permanently collect the coins, click “Collect money”. <br><br>
 
-        Each balloon has a explosion point. If the balloon explodes before you click “Collect money”, you will lose all potential money. <br><br>
+        Each balloon has a explosion point. If the balloon explodes before you click “Collect money”, you will lose all potential shekels. <br><br>
     </span>
     </div>
     <div class="guideline-button-container">

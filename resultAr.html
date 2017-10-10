@@ -4,29 +4,32 @@
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
-  <html dir="rtl" lang="ar">
   <link rel="stylesheet" href="./result.css">
   <link rel="stylesheet" href="./navbar.css">
+  <link rel="stylesheet" href="dropDown.css">
   <title>نتائج لعبة البالون</title>
 </head>
 
 <body>
   <nav>
-      <div class="link">
-        <img src="images/head.svg" alt="icon">
-        <a href="#" id="a_games">الالعاب</a>
-        <a href="#" id="a_traits">بيانات</a>
-        <a href="#" id="a_degree">شهادات</a>
+    <div class="link">
+      <img src="images/head.svg" alt="icon">
+      <a href="generalGuidelinesAr.html" id="a_games">العاب</a>
+      <a href="traitsAr.html" id="a_traits">بيانات</a>
+      <a href="degreeAr.html" id="a_degree">شهادات</a>
+    </div>
+    <div class="userAr">
+      <span>مرحبا بك, المستخدم</span>
+      <img src="images/user.svg" alt="user">
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">لغة</button>
+      <div class="dropdown-content">
+        <a href="resultAr.html">العربية</a>
+        <a href="result.html">English</a>
       </div>
-      <div class="user">
-        <span>مرحبا بك, المستخدم</span>
-        <img src="images/user.svg" alt="user">
-      </div>
-    </nav>
-    <select name="forma" onchange="location = this.value;">
-      <option value="resultAr.html">Arabic</option>
-      <option value="result.html">English</option>
-    </select>
+    </div>
+  </nav>
   <div class="player-container">
     <div class="insight-title">
       <h1>مرحبا بك, المستخدم</h1>
@@ -51,7 +54,8 @@
       </p>
     </div>
     <div class="insight-button-container">
-      <a href="./traits.html"><button class="insight-button" type="button">ابداء العبة الثانية</button></a>
+      <a href="./traitsAr.html"><button class="insight-button" type="button">ابداء العبة الثانية</button></a>
+      <!-- Hon Ra7 ekon fe lo3be tane / bs 7alen ra7 ekon tre2 la traits -->
     </div>
   </div>
 </body>

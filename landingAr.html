@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Scheherazade" rel="stylesheet">
   <html dir="rtl" lang="ar">
   <link rel="stylesheet" href="landing.css">
+  <link rel="stylesheet" href="dropDown.css">
 </head>
 
 <body>
@@ -14,10 +15,13 @@
     <div id="caption">
       <h2>اكتشف نفسك</h2>
       <h4>العب بعض الالعاب لتعرف المزيد عن نفسك</h4>
-      <select name="forma" onchange="location = this.value;">
-          <option value="landingAr.html">Arabic</option>
-          <option value="landing.html">English</option>
-    </select>
+      <div class="dropdownLanding">
+        <button class="dropbtn">لغة</button>
+        <div class="dropdown-content">
+          <a href="landingAr.html">العربية</a>
+          <a href="landing.html">English</a>
+        </div>
+      </div>
     </div>
     <div class="centering">
       <div class="button">
