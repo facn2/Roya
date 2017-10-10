@@ -1,9 +1,10 @@
-* {
+/** {
   font-family: 'Lateef', cursive;
-}
+}*/
 
 nav {
   font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   border-bottom: 1px solid black;
   background-color: #6d747f;

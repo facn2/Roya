@@ -1,4 +1,6 @@
   body {
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   height: 100vh;
 }
@@ -17,9 +19,9 @@ section {
   text-align: center;
 }
 
-h2, option {
+/*h2, option {
   font-family: 'Lateef', cursive;
-}
+}*/
 
 .title {
   width: 100%;
