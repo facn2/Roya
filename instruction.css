@@ -1,20 +1,19 @@
 body {
   font-family: 'PT Sans', sans-serif;
   color: #000000;
-  background-color: #7F8DA4;
-  /*background-color: #F8F8F8;*/
+  background-color: #eaf0f2;
   margin: 0;
 }
 
 .guideline-container {
-  background-color: white;
+  background-color: #fcf6ef;
   margin: 4% 4% 1% 4%;
   padding: 2% 5% 2% 5%;
 }
 
 .guideline-title {
   text-align: center;
-  color: red;
+  color: #4f0f0f;
   font-size: 1.5em;
 }
 
