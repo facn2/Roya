@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
-  <html dir="rtl" lang="ar">
   <link rel="stylesheet" href="./result.css">
   <link rel="stylesheet" href="./navbar.css">
+  <link rel="stylesheet" href="dropDown.css">
   <title>نتائج لعبة البالون</title>
 </head>
 
@@ -22,10 +22,13 @@
       <span>مرحبا بك, المستخدم</span>
       <img src="images/user.svg" alt="user">
     </div>
-    <select name="forma" onchange="location = this.value;">
-      <option value="resultAr.html">العربية</option>
-      <option value="result.html">English</option>
-    </select>
+    <div class="dropdown">
+      <button class="dropbtn">لغة</button>
+      <div class="dropdown-content">
+        <a href="resultAr.html">العربية</a>
+        <a href="result.html">English</a>
+      </div>
+    </div>
   </nav>
   <div class="player-container">
     <div class="insight-title">

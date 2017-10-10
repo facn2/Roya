@@ -1,4 +1,4 @@
-body {
+  body {
   margin: 0;
   height: 100vh;
 }
@@ -74,20 +74,16 @@ h2, option {
 }
 
 
-/* Style each tab content individually */
-
-#Learning {
-  background-color: red;
-}
-
-#Risk {
-  background-color: green;
-}
-
-#Planning {
-  background-color: blue;
-}
-
-#Processing {
-  background-color: orange;
-}
+  /* Style each tab content individually */
+  #Learning {
+    background-color: red;
+  }
+  #Risk {
+    background-color: green;
+  }
+  #Planning {
+    background-color: blue;
+  }
+  #Processing {
+    background-color: orange;
+  }

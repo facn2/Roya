@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="./result.css">
   <link rel="stylesheet" href="./navbar.css">
+  <link rel="stylesheet" href="dropDown.css">
   <title>Balloon Result</title>
 </head>
 
@@ -20,10 +21,13 @@
       <span>Hello, user</span>
       <img src="images/user.svg" alt="user">
     </div>
-    <select name="forma" onchange="location = this.value;">
-      <option value="result.html">English</option>
-      <option value="resultAr.html">العربية</option>
-    </select>
+    <div class="dropdown">
+      <button class="dropbtn">Language</button>
+      <div class="dropdown-content">
+        <a href="result.html">English</a>
+        <a href="resultAr.html">العربية</a>
+      </div>
+    </div>
   </nav>
   <div class="player-container">
     <div class="insight-title">
