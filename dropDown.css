@@ -17,6 +17,17 @@
   text-decoration: none;
   position: absolute;
   transition: .5s ease;
+}
+
+.dropdownLanding {
+  position: relative;
+  display: inline-block;
+  right: 3.5%;
+  font-size: 1em;
+  border-radius: 1em;
+  text-decoration: none;
+  position: absolute;
+  transition: .5s ease;
   top: 20%;
   right: 90%;
 }
