@@ -4,9 +4,6 @@ body {
   margin: 0;
 }
 
-a, span h1, h3, p {
-  font-family: 'Lateef', cursive;
-}
 
 .player-container {
   background-color: white;

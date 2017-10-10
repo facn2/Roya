@@ -6,10 +6,6 @@ body {
   margin: 0;
 }
 
-a, span, h1 {
-  font-family: 'Lateef', cursive;
-}
-
 .guideline-container {
   background-color: white;
   margin: 4% 4% 1% 4%;
