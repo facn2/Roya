@@ -1,9 +1,5 @@
-/** {
-  font-family: 'Lateef', cursive;
-}*/
-
 nav {
-  font-family: 'PT Sans', sans-serif;
+  /*font-family: 'PT Sans', sans-serif;*/
   -webkit-font-smoothing: antialiased;
   margin: 0;
   border-bottom: 1px solid black;
@@ -21,6 +17,7 @@ nav {
   align-items: center;
   position: relative;
   left: 5%;
+  z-index: 1;
 }
 
 .link>a {
@@ -28,10 +25,21 @@ nav {
   color: white;
 }
 
-.user {
+.userEn {
+  z-index: 0;
   flex-grow: 3;
   text-align: right;
   color: white;
   position: relative;
-  right: 7%;
+  right: 13%;
+  width: 50%;
+  top: -5px;
+}
+
+.userAr {
+  flex-grow: 3;
+  text-align: right;
+  color: white;
+  position: relative;
+  right: 10%;
 }
