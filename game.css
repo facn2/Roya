@@ -113,9 +113,9 @@ button {
   color: black;
   background-color: #d2cece;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 0.9rem;
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #success-container{
