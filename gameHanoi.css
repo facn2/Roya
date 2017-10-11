@@ -5,6 +5,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .hidden{
@@ -14,7 +16,7 @@ body{
 .game{
   background-color: white;
   width: 65%;
-  height: 70%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,12 +35,25 @@ body{
   flex-direction: column;
 }
 
-.success>a{
+.success-text{
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:2rem;
+  border-radius: 10px;
+}
+
+.success-text>a{
   text-decoration: none;
   color: black;
-  background-color: grey;
+  background-color: #d2cece;
   border-radius: 10px;
   padding: 0.5rem;
+  margin: 1rem;
+  font-size: 2rem;
 }
 
 #success-container{
