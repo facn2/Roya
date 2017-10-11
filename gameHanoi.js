@@ -2,6 +2,7 @@
 var numOfMoves = document.getElementById('num');
 var success = document.getElementById('success-container');
 var invalid = document.getElementsByClassName('invalid')[0];
+
 //logic part
 var pop = false; // global state
 
