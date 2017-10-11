@@ -1,5 +1,5 @@
 .dropbtn {
-  background-color: #eaedf2;
+  background-color: #f7f7f7;
   color: #000;
   padding: 10px;
   font-size: 16px;
@@ -9,33 +9,19 @@
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
   right: 3.5%;
   font-size: 1em;
   border-radius: 1em;
   text-decoration: none;
-  position: absolute;
   transition: .5s ease;
-}
-
-.dropdownLanding {
-  position: relative;
-  display: inline-block;
-  right: 3.5%;
-  font-size: 1em;
-  border-radius: 1em;
-  text-decoration: none;
-  position: absolute;
-  transition: .5s ease;
-  top: 20%;
-  right: 90%;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fbe5c9;
+  background-color: #f7f7f7;
   /*min-width: 160px;*/
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -57,5 +43,49 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #fbe5c9;
+  background-color: #f7f7f7;
+}
+
+/*landing page dropdown*/
+
+#landingbtn {
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.landing {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  font-size: 1em;
+  border-radius: 1em;
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.landing-content {
+  display: none;
+  position: absolute;
+  background-color: #f7f7f7;
+  min-width: 170px;
+  z-index: 1;
+}
+
+.landing-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.landing-content a:hover {
+  background-color: grey;
+}
+
+.landing:hover .landing-content {
+  display: block;
+}
+
+.landing:hover #landingbtn {
 }
