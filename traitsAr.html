@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>بيانات</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" href="traits.css">
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="dropDown.css">
@@ -30,51 +31,55 @@
     </div>
   </nav>
   <section class="traitsContainer" id="traitsContainer">
-    <div class="Title">
+    <div class="title">
       <h2>تقرير بكل بياناتك</h2>
     </div>
 
     <button class="tablink" onclick="openTraits('Learning', this, 'red')" id="defaultOpen">تعليم</button>
     <button class="tablink" onclick="openTraits('Risk', this, 'green')">مخاطرة</button>
     <button class="tablink" onclick="openTraits('Planning', this, 'blue')">تخطيط</button>
-    <button class="tablink" onclick="openTraits('Processing', this, 'orange')">تحسين</button>
+    <button class="tablink" onclick="openTraits('Altruism', this, 'orange')">ايثار</button>
     <div id="Learning" class="tabcontent">
       <div class="content-box">
-        <h3>نتائجك</h3>
         <div class="graph">
-          <img src="./images/chart.png">
+          <img src="./images/chart3.0.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="content-text">
+          <p>انت مندفع للمكافأت الخارجية, مما يزيد من قدرتك على ان تكون موجه نحو الهدف وتحقيق النتائج التي تريدها. تذكر, مع ذلك, ان الدافع الذاتي يلعب دورا رئيسيا. حاول التفكير بجدية حول ما يثير اهتماماتك ويقودك لها. وهذا سيكون مفيداً ﻵدائك ورضاك بلحياة.</p>
+        </div>
       </div>
     </div>
 
     <div id="Risk" class="tabcontent">
       <div class="content-box">
-        <h3>نتائجك</h3>
         <div class="graph">
-          <img src="./images/chart.png">
+          <img src="./images/chart3.0.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="content-text">
+          <p>عندما تواجه مهمة غامضة, تعتمد على طريقة درب والخطأ وتتعلم جيدا من اخطائك. ومع ذلك, فإن هذا الموقف قد يتطلب منك التمسك باستراتيجيات (او عدد محدود), الاستكشاف المفرط لاستراتيجيات قد تمنعك من إكمال المهمة, سوف تحتاج الى تطوير, تركيز واستقرار اكثر.</p>
+        </div>
       </div>
     </div>
 
     <div id="Planning" class="tabcontent">
       <div class="content-box">
-        <h3>نتائجك</h3>
         <div class="graph">
-          <img src="./images/chart.png">
+          <img src="./images/chart3.0.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="content-text">
+          <p>انت معجب بتخطيط وسريع باتخاذ القرارات الاستراتيجيةالصحيحة. هذه الصفة مفيدة لأنك تميل الى ان تكون سريع في اتخاذ القرارات الجيدة, ولكن يجب الحرص بكل مهمة تأخذ الاختيار بسرعة, وقد تستفيد بعض الاحيان من التخطيط ببطئ والتمهل خاصةً اذا تطلب الامر دقة اكثر.</p>
+        </div>
       </div>
     </div>
 
-    <div id="Processing" class="tabcontent">
+    <div id="Altruism" class="tabcontent">
       <div class="content-box">
-        <h3>نتائجك</h3>
         <div class="graph">
-          <img src="./images/chart.png">
+          <img src="./images/chart3.0.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="content-text">
+          <p>انت تثق بلاخرين هذا صفة الاجتماعية التى تعطى العديد من الفدائد لك ولمن حولك. وفي هذا الموقف قد تكون هنالك العديد من المهام التى تكون فيها شكوك متزايدة. وهذا النوع من التشكُك لا يقصد اثارة الشكوك لمن حولك, بل انهُ يشجع على اجراء تقيم سريع لمصداقية وموثوقية للاشخاص الموجودين حولك وتعمل معهم.</p>
+        </div>
       </div>
     </div>
   </section>
