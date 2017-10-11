@@ -5,7 +5,7 @@ var collect = document.getElementById('collect');
 var collectCounter = document.getElementById('collect-counter');
 var balloonCounter = document.getElementById('balloon-counter');
 var counterDiv = document.getElementById('counter');
-var gameOver = document.getElementById('overlay');
+var gameOver = document.getElementById('success-container');
 
 //start canvas API
 var ctx = canvas.getContext('2d');
@@ -178,7 +178,7 @@ var balloonTimer = setInterval(function() {
 }, 500);
 
 function gameEnd() {
-  gameOver.style.visibility = 'visible';
+  gameOver.style.display = 'block';
 };
 
 function stopInterval() {
