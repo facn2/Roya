@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>برج هانوي</title>
+    <link rel="stylesheet" href="gameHanoi.css">
+  </head>
+  <body>
+    <div class="game">
+      <div class="move">
+        حركة:<span id="num"></span>
+      </div>
+      <canvas id="canvas" width="600" height="450">
+        This text is displayed if your browser does not support HTML5 Canvas.
+      </canvas>
+      <div class="hidden invalid">
+        نقل غير صالح لهذه القطعة
+      </div>
+      <div class="hidden" id="success-container">
+        <div class="success">
+          تهانينا, العبة انتهت.
+          <a href="traitsAr.html">لعبة التالية</a>
+        </div>
+      </div>
+    </div>
+   <script src="gameHanoi.js" charset="utf-8"></script>
+  </body>
+</html>
