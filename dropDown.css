@@ -27,7 +27,6 @@
 
 .dropdown-content a {
   color: black;
-
   padding: 12px 15px;
   text-decoration: none;
   display: block;
@@ -45,12 +44,24 @@
   background-color: #f7f7f7;
 }
 
+#dropbtn-ar {
+  position: absolute;
+  right: 1em;
+}
+
+#dropdown-content-ar {
+  position: absolute;
+  top: 35px;
+  right: 11px;
+}
+
 /*landing page dropdown*/
 
 #landingbtn {
   background-color: #000;
   color: #ffffff;
   border-radius: 0;
+  font-size: 1em;
 }
 
 .landing {
