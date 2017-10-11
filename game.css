@@ -81,6 +81,10 @@ button {
   /*for later use*/
 }
 
+.hidden{
+  display:none;
+}
+
 .success{
   background-color: rgba(0,0,0,0.7);
   width:100%;
