@@ -1,9 +1,15 @@
-# Neuro-games
+# Roya رؤيا
 
-#### Mission Statement
+#### Problem
 Arab students in Israel are currently leaving high school without a sufficient understanding of career paths most suited for their ability and personality. In an attempt to address this, schools put their students through numerous aptitude and personality tests, most of which are self-reported questionnaires. 
 
 While these tests can be useful, users may have bias ideals of themselves that are not necessarily correct. Overall, it does not give accurate representation of the user and their true strengths and weaknesses. 
+
+#### Mission Statement 
+Roya is derived from the Arabic word ‘رؤيا’, which means revelation.
+
+Roya is a platform to help reveal students’ cognitive and emotional make-up objectively through series of games. This in turn will help them make better decisions about their career paths.
+
 
 #### Objectives
 - Revolutionize assessment tests
@@ -28,11 +34,12 @@ The Team:
 
 
 ## User Journey
-As a user who wants objective information about my cognitive functioning and emotional disposition, I want to...
+As a user who wants unbiased information about my cognitive functioning and emotional disposition, I want to...
 
-+ Play a series of short, interactive games 
-+ See immediate feedback displaying attributes
-+ See my results in a visual form, where it can be contrasted to a larger population pool 
++ Play short, interactive games
++ See some immediate analysis based on how I played the game
++ After finishing all required games, see a list of assessed traits
++ List degrees/careers that best matches my strengths and weaknesses
 
 ## URL for website
 https://facn2.github.io/neuro-games/
