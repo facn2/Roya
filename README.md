@@ -1,19 +1,30 @@
 # Neuro-games
 
-## Misson Statement
-This App aims to provide insights of students' ability by using a series of games backed by psychology and neuro science, in order to help them make better decisions to choose their career path.
+#### Mission Statement
+Arab students in Israel are currently leaving high school without a sufficient understanding of career paths most suited for their ability and personality. In an attempt to address this, schools put their students through numerous aptitude and personality tests, most of which are self-reported questionnaires. 
 
-+ Target audience of this App are students aged 18 - 24.
+While these tests can be useful, users may have bias ideals of themselves that are not necessarily correct. Overall, it does not give accurate representation of the user and their true strengths and weaknesses. 
 
-+ The problem the App is trying to solve is students does not know enough about their abilities and interests to make a good decision of their career path.
+#### Objectives
+- Revolutionize assessment tests
+    - Engage users in interactive games backed by neuroscience
+- Better representation of user
+    - Give insight about the user’s greatest strengths and weaknesses
+- Better educational choices
+    - Help users find degrees that matches their objective traits
 
-+ The Goal of the app is to provide more in depth information of the students and suggest degrees that matches their traits so that they can make a well informed choice.
 
-+ This project is initiated by Education Lab and Founders and Coders.  
-Team: 
-Leo @tyeung2017  
-Amy @wyrd00  
-Katia @katiaAsh
+### Target Audiences
+The main users of this App are students between the ages of 18 - 24. Career counselors and schools will also benefit from this app.
+
+
+#### Credit
+This project is initiated by Education Lab and Founders and Coders.
+
+The Team:
+ + Leo @tyeung2017  
+ + Amy @wyrd00  
+ + Katia @katiaAsh
 
 
 ## User Journey
