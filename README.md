@@ -46,11 +46,6 @@ https://facn2.github.io/neuro-games/
 
 ## Stretch Goals
 + Create graphs for traits
-+ More games [UPDATE: Added hanoi game]
++ More games
 + Add user profile
-+ Add degree/education/school options [UPDATE: degree]
-   + Step-by-step achievement
-
-## Technology Stack
-+ vanilla javascipt
-+ HTML5 canvas
++ Add degree/education/school options
