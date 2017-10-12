@@ -1,5 +1,21 @@
 # Neuro-games
 
+## Misson Statement
+This App aims to provide insights of students' ability by using a series of games backed by psychology and neuro science, in order to help them make better decisions to choose their career path.
+
++ Target audience of this App are students aged 18 - 24.
+
++ The problem the App is trying to solve is students does not know enough about their abilities and interests to make a good decision of their career path.
+
++ The Goal of the app is to provide more in depth information of the students and suggest degrees that matches their traits so that they can make a well informed choice.
+
++ This project is initiated by Education Lab and Founders and Coders.  
+Team: 
+Leo @tyeung2017  
+Amy @wyrd00  
+Katia @katiaAsh
+
+
 ## User Journey
 As a user who wants objective information about my cognitive functioning and emotional disposition, I want to...
 
