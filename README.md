@@ -10,18 +10,17 @@ This App aims to provide insights of students' ability by using a series of game
 + The Goal of the app is to provide more in depth information of the students and suggest degrees that matches their traits so that they can make a well informed choice.
 
 + This project is initiated by Education Lab and Founders and Coders.  
-Team: 
-Leo @tyeung2017  
-Amy @wyrd00  
-Katia @katiaAsh
-
+Team:
+ * Leo Yeung - [@tyeung2017](github.com/tyeung2017)
+ * Amy Tai - [@wyrd00](github.com/wyrd00)
+ * Katia Ashkar - [@KatiaAsh](github.com/katiaAsh)
 
 ## User Journey
 As a user who wants objective information about my cognitive functioning and emotional disposition, I want to...
 
-+ Play a series of short, interactive games 
++ Play a series of short, interactive games
 + See immediate feedback displaying attributes
-+ See my results in a visual form, where it can be contrasted to a larger population pool 
++ See my results in a visual form, where it can be contrasted to a larger population pool
 
 ## URL for website
 https://facn2.github.io/neuro-games/
