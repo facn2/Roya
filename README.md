@@ -1,4 +1,5 @@
 # Roya رؤيا
+https://facn2.github.io/Roya/
 
 #### Problem
 Arab students in Israel are currently leaving high school without a sufficient understanding of career paths most suited for their ability and personality. In an attempt to address this, schools put their students through numerous aptitude and personality tests, most of which are self-reported questionnaires. 
@@ -40,9 +41,6 @@ As a user who wants unbiased information about my cognitive functioning and emot
 + See some immediate analysis based on how I played the game
 + After finishing all required games, see a list of assessed traits
 + List degrees/careers that best matches my strengths and weaknesses
-
-## URL for website
-https://facn2.github.io/neuro-games/
 
 ## Stretch Goals
 + Create graphs for traits
