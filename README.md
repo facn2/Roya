@@ -2,11 +2,11 @@
 https://facn2.github.io/Roya/
 
 #### Problem
-Arab students in Israel are currently leaving high school without a sufficient understanding of career paths most suited for their ability and personality. In an attempt to address this, schools put their students through numerous aptitude and personality tests, most of which are self-reported questionnaires. 
+Arab students in Israel are currently leaving high school without a sufficient understanding of career paths most suited for their ability and personality. In an attempt to address this, schools put their students through numerous aptitude and personality tests, most of which are self-reported questionnaires.
 
-While these tests can be useful, users may have bias ideals of themselves that are not necessarily correct. Overall, it does not give accurate representation of the user and their true strengths and weaknesses. 
+While these tests can be useful, users may have bias ideals of themselves that are not necessarily correct. Overall, it does not give accurate representation of the user and their true strengths and weaknesses.
 
-#### Mission Statement 
+#### Mission Statement
 Roya is derived from the Arabic word ‘رؤيا’, which means revelation.
 
 Roya is a platform to help reveal students’ cognitive and emotional make-up objectively through series of games. This in turn will help them make better decisions about their career paths.
@@ -29,10 +29,9 @@ The main users of this App are students between the ages of 18 - 24. Career coun
 This project is initiated by Education Lab and Founders and Coders.
 
 The Team:
- + Leo @tyeung2017  
- + Amy @wyrd00  
- + Katia @katiaAsh
-
+ + Leo Yeung - [@tyeung2017](github.com/tyeung2017)
+ + Amy Tai - [@wyrd00](github.com/wyrd00)
+ + Katia Ashkar  - [@KatiaAsh](github.com/KatiaAsh)
 
 ## User Journey
 As a user who wants unbiased information about my cognitive functioning and emotional disposition, I want to...
