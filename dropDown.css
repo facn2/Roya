@@ -46,13 +46,13 @@
 
 #dropbtn-ar {
   position: absolute;
-  right: 1em;
+  right: 0.8em;
 }
 
 #dropdown-content-ar {
   position: absolute;
-  top: 35px;
-  right: 11px;
+  top: 39px;
+  right: 0.5px;
 }
 
 /*landing page dropdown*/
